@@ -329,6 +329,8 @@ aside:hover header h1 {
   100% {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
+
+/*Animation of bulleted list items*/
 }
 
 aside:hover ul li:first-child {
@@ -342,6 +344,11 @@ aside:hover ul li:nth-child(2) {
 }
 
 aside:hover ul li:nth-child(3) {
+  animation: social_animation 2000ms ease-in-out both;
+  animation-delay: 1.25s;
+}
+
+aside:hover ul li:nth-child(4) {
   animation: social_animation 2000ms ease-in-out both;
   animation-delay: 1.25s;
 }
