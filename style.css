@@ -127,7 +127,11 @@ aside:hover .profile-bio {
 
 h2 {
   text-align: center;
-  color: #0094DE;
+  color: #fff;
+  line-height: 25px;
+  transition: all ease 0.250s;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 
 }
 
