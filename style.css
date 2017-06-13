@@ -30,7 +30,7 @@ a:link {
 }
 a:visited {
         text-decoration: none;
-color: #0094DE;
+color: #ACCEDE;
 
 }
 a:hover {
@@ -42,8 +42,8 @@ color: #fff;
 /*Popup profile formatting/decoration*/
 
 aside {
-  border-top: 0px solid #26A69A;
-  border-bottom: 0px solid #00695C;
+  border-top: 0px solid #ACCEDE;
+  border-bottom: 0px solid #ACCEDE;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
