@@ -6,6 +6,8 @@ body {
   background-size: cover;
 }
 
+/*Headshot formatting*/
+
 header img {
   border-radius: 50%;
   margin: 20px auto;
@@ -13,6 +15,8 @@ header img {
   width: 200px;
   border: 5px solid #fff;
 }
+
+/*Top of page nav menu with links*/
 
 .jump {
     text-align: left;
@@ -34,6 +38,9 @@ text-decoration: underline;
 color: #DD127B;
 
 }
+
+/*Popup profile formatting/decoration*/
+
 aside {
   border-top: 0px solid #26A69A;
   border-bottom: 0px solid #00695C;
@@ -63,12 +70,13 @@ aside:hover header img {
   animation-delay: 0.5s;
 }
 
+/*Various sections of text and their formatting*/
+
 header {
   text-align: center;
   font-family: Roboto, Helvetica, Arial, serif;
   color: #fff;
   font-size: 17px;
-
 }
 
 header h1 {
@@ -102,6 +110,18 @@ header h2 {
   margin: 0;
 }
 
+h2 {
+  text-align: center;
+  color: #fff;
+  line-height: 25px;
+  transition: all ease 0.250s;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+
+}
+
+/*Font formatting for profile-bio class section*/
+
 .profile-bio {
   margin-top: 20px;
   padding: 1px 20px 10px 20px !important;
@@ -125,15 +145,7 @@ aside:hover .profile-bio {
     text-align: center;
 }
 
-h2 {
-  text-align: center;
-  color: #fff;
-  line-height: 25px;
-  transition: all ease 0.250s;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-
-}
+/*Font formatting for custom classes*/
 
 .job-title {
     font-style: italic;
@@ -156,6 +168,8 @@ h2 {
   opacity: 0;
   transition: all ease 0.5s;
 }
+
+/*Font formatting for profile-social-links section*/
 
 aside:hover .profile-social-links {
   margin-left: -30px;
