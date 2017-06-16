@@ -151,7 +151,7 @@ aside:hover .profile-bio {
     font-style: italic;
 }
 
-.org-name {
+#education {
     color: #ACCEDE;
     font-size: 16px;
 }
@@ -350,7 +350,7 @@ aside:hover ul li:nth-child(3) {
 
 aside:hover ul li:nth-child(4) {
   animation: social_animation 2000ms ease-in-out both;
-  animation-delay: 1.25s;
+  animation-delay: 1.50s;
 }
 
 @keyframes social_animation {
