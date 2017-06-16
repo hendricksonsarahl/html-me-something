@@ -124,6 +124,7 @@ h2 {
 
 .profile-bio {
   margin-top: 20px;
+  margin-bottom: 10px;
   padding: 1px 20px 10px 20px !important;
   transition: all linear 1.5s;
   color: #fff;
@@ -151,9 +152,13 @@ aside:hover .profile-bio {
     font-style: italic;
 }
 
-#education {
+.org-name {
     color: #ACCEDE;
     font-size: 16px;
+    
+}
+#education {
+    text-align: center;
 }
 
 .education {
